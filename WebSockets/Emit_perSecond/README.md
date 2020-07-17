@@ -1,0 +1,1 @@
+- To send an event from the server to the client
