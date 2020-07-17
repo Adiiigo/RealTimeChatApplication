@@ -1,4 +1,8 @@
 - This is the minimal program which shows how to connect the client and server
+- The socket object on both sides extends the EventEmitter class, so:
+    - sending an event is done with: socket.emit()
+    - receiving an event is done by registering a listener: socket.on(<event name>, <listener>)
+
 ##### How to run the program
 
 - install all the depenedencies
